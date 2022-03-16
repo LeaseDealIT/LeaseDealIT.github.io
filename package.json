@@ -15,7 +15,7 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build:widget": "parcel build src/index.html --no-source-maps",
+    "build:widget": "parcel build src/index.html --no-source-maps --no-scope-hoist",
     "watch": "parcel watch",
     "build": "parcel build"
   },
