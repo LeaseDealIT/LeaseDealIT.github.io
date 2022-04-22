@@ -25,19 +25,19 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="header">
-          <h1>Calculate Your Compensation</h1>
+          <h1>Palkkalaskuri</h1>
         </div>
         <form>
           <div>
 
             <Range onChange={this.billingChange.bind(this)} value={this.state.billing} min={49} max={121} step={1} />
-            <label>{this.state.billing} €/h</label>
+            <label>{this.state.billing} €/tunti</label>
           </div>
           <div>
 
 
             <Range onChange={this.hoursChange.bind(this)} value={this.state.hours} min={99} max={181} step={1} />
-            <label>{this.state.hours} h/mo</label>
+            <label>{this.state.hours} tuntia/kk</label>
           </div>
         </form>
         <br /><br />
@@ -90,11 +90,11 @@ class Output extends React.Component {
     let sideExpenses = employeeShare - monthlySalary;
     return (
       <div className="output">
-        <h3>Billing: {monthlyBilling.toFixed(0)} €/mo</h3>
-        <h3>Your share: {employeeShare.toFixed(0)} €</h3>
-        <h3>LDIT share: {employerCut.toFixed(0)} €</h3>
-        <h3>Side expenses: {sideExpenses.toFixed(0)} €</h3>
-        <h3>Monthly salary: {monthlySalary.toFixed(0)} €</h3>
+        <h3>Laskutus: {monthlyBilling.toFixed(0)} €/kk</h3>
+        <h3>Sinun osuus: {employeeShare.toFixed(0)} €</h3>
+        <h3>LDIT osuus: {employerCut.toFixed(0)} €</h3>
+        <h3>Sivukulut: {sideExpenses.toFixed(0)} €</h3>
+        <h3>Kuukausipalkka: {monthlySalary.toFixed(0)} €</h3>
       </div>
     );
   }

@@ -22823,7 +22823,7 @@ class App extends _reactDefault.default.Component {
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
                     className: "header",
                     children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                        children: "Calculate Your Compensation"
+                        children: "Palkkalaskuri"
                     }, void 0, false, {
                         fileName: "code/ldit/LeaseDealIT.github.io/src/App.js",
                         lineNumber: 28,
@@ -22852,7 +22852,7 @@ class App extends _reactDefault.default.Component {
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     children: [
                                         this.state.billing,
-                                        " €/h"
+                                        " €/t"
                                     ]
                                 }, void 0, true, {
                                     fileName: "code/ldit/LeaseDealIT.github.io/src/App.js",
@@ -22881,7 +22881,7 @@ class App extends _reactDefault.default.Component {
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     children: [
                                         this.state.hours,
-                                        " h/mo"
+                                        " tuntia/kk"
                                     ]
                                 }, void 0, true, {
                                     fileName: "code/ldit/LeaseDealIT.github.io/src/App.js",
@@ -22974,7 +22974,7 @@ class Output extends _reactDefault.default.Component {
             children: [
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                     children: [
-                        "Billing: ",
+                        "Laskutus: ",
                         monthlyBilling.toFixed(0),
                         " €/mo"
                     ]
@@ -22985,7 +22985,7 @@ class Output extends _reactDefault.default.Component {
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                     children: [
-                        "Your share: ",
+                        "Sinun osuutesi: ",
                         employeeShare.toFixed(0),
                         " €"
                     ]
@@ -22996,7 +22996,7 @@ class Output extends _reactDefault.default.Component {
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                     children: [
-                        "LDIT share: ",
+                        "LDIT osuus: ",
                         employerCut.toFixed(0),
                         " €"
                     ]
@@ -23007,7 +23007,7 @@ class Output extends _reactDefault.default.Component {
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                     children: [
-                        "Side expenses: ",
+                        "Sivukulut: ",
                         sideExpenses.toFixed(0),
                         " €"
                     ]
@@ -23018,7 +23018,7 @@ class Output extends _reactDefault.default.Component {
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                     children: [
-                        "Monthly salary: ",
+                        "Kuukausipalkka: ",
                         monthlySalary.toFixed(0),
                         " €"
                     ]
