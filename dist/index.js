@@ -22852,7 +22852,7 @@ class App extends _reactDefault.default.Component {
                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("label", {
                                     children: [
                                         this.state.billing,
-                                        " €/t"
+                                        " €/tunti"
                                     ]
                                 }, void 0, true, {
                                     fileName: "code/ldit/LeaseDealIT.github.io/src/App.js",
@@ -22976,7 +22976,7 @@ class Output extends _reactDefault.default.Component {
                     children: [
                         "Laskutus: ",
                         monthlyBilling.toFixed(0),
-                        " €/mo"
+                        " €/kk"
                     ]
                 }, void 0, true, {
                     fileName: "code/ldit/LeaseDealIT.github.io/src/App.js",
@@ -22985,7 +22985,7 @@ class Output extends _reactDefault.default.Component {
                 }, this),
                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h3", {
                     children: [
-                        "Sinun osuutesi: ",
+                        "Sinun osuus: ",
                         employeeShare.toFixed(0),
                         " €"
                     ]
