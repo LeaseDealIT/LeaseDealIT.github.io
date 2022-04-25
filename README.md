@@ -12,7 +12,14 @@ npm run build:widget
 
 # the following html code will display the calculator version that is running in LDIT github pages
 
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Parcel App</title><link rel="stylesheet" href="https://leasedealit.github.io/dist/index.css"><script src="https://leasedealit.github.io/dist/index.js" defer></script></head><body> <div class="salary_widget"></div> </body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Parcel App</title>
+<link rel="stylesheet" href="https://leasedealit.github.io/dist/index.css">
+<script src="https://leasedealit.github.io/dist/index.js" defer></script>
+</head>
+<body> 
+<div class="salary_widget"></div>
+ </body>
+ </html>
 
 
 
